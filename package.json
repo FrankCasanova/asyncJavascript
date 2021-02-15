@@ -1,0 +1,26 @@
+{
+  "name": "callback",
+  "version": "1.0.0",
+  "description": "curso para comprender como funciona el asincronismo en javascript",
+  "main": "src/scripts.js",
+  "scripts": {
+    "callback": "node ./src/callback/scripts.js ",
+    "callback:challenge": "node ./src/callback/challenge.js",
+    "promise": "node ./src/promise/index.js",
+    "promise:challenge": "node ./src/promise/challenge.js",
+    "async": "node ./src/async/index.js",
+    "async:challenge": "node ./src/async/challenge.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "Frank Casanova",
+  "license": "ISC",
+  "dependencies": {
+    "nodemodule": "^0.3.0",
+    "postman": "^0.2.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
